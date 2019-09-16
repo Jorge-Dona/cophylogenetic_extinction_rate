@@ -19,6 +19,8 @@ ec <- function(L,E,S) {
 # Example of usage:
 # L = 1; E = 10; S = 2
 # 1. Load the function (note that modified wilson is used as the default method for computing the CI; modify the function if you want to use a different method).
-# 2. For the number of events of this example, call it simply as follows: ec(1,10,2).  
+# 2. For the number of events of this example, call it simply as follows: 
+ec(1,10,2)
 
+# [1] "Ec= 0.0434782608695652 ; Lower CI= 0.00772525023257961 ; Upper CI= 0.145322590262191"
 
