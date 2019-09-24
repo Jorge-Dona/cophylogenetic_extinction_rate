@@ -5,3 +5,4 @@ This R function computes the “cophylogenetic extinction rate” (Ec), a statis
 A Shiny app that calculates Ec and confidence intervals (modified Wilson) is available here (https://jdona.shinyapps.io/extinction/).
 
 See Doña & Johnson 2019 for more details. 
+Doña, J & Johnson, KP. Assessing symbiont extinction risk: insights from host-symbiont cophylogenetics and coevolutionary theory. Biological Conservation. In rev.
