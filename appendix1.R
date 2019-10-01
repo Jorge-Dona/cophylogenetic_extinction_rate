@@ -6,7 +6,7 @@ require(DescTools)
 #Load the function
 ec <- function(L,E,S) {
   
-  est=BinomCI(L, (E+S),
+  est<-BinomCI(L, (E+S),
               conf.level = 0.95,
               method = "modified wilson")
   paste("Ec=", est[1],";","Lower CI=", est[2],";", "Upper CI=", est[3])
@@ -22,5 +22,5 @@ ec <- function(L,E,S) {
 # 2. For the number of events of this example, call it simply as follows: 
 ec(1,10,2)
 
-# [1] "Ec= 0.0434782608695652 ; Lower CI= 0.00772525023257961 ; Upper CI= 0.145322590262191"
+# [1] "Ec= 0.0833333333333333 ; Lower CI= 0.00427444119896255 ; Upper CI= 0.353879911141117"
 
