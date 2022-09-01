@@ -1,5 +1,5 @@
 # This function computes the “cophylogenetic extinction rate” (Ec), a statistics that uses data from event-based cophylogenetic analyses and might be informative to assess symbiont extinction risks.
-# See Doña & Johnson 2019 for more details. 
+# See Doña & Johnson 2020 for more details. 
 
 require(DescTools)
 
